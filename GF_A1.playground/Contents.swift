@@ -47,7 +47,10 @@ func sortArraySTRING(arr: [String]) -> Array<String> {
     return array
 }
 
-sortArraySTRING(arr: ["Rana", "Nesreen","hi", "hala"])
+sortArraySTRING(arr: ["Rana", "GeekFactoryyy","hi", "hala"])
+
+
+
 
 func sortArrayGENERIC<T : Comparable>(arr: Array<T>) -> Array<T>? {
     var array = arr
@@ -66,7 +69,7 @@ func sortArrayGENERIC<T : Comparable>(arr: Array<T>) -> Array<T>? {
     return array
 }
 
-sortArrayGENERIC(arr: ["Rana", "Nesreen","hi", "bye"])
+sortArrayGENERIC(arr: ["Rana", "GeekFactoryyy","hi", "bye"])
 sortArrayGENERIC(arr: [29,20,73,34,64])
 
 
